@@ -6,6 +6,3 @@ require 'tod/conversions'
 
 include Tod
 include Tod::Conversions
-class TimeOfDay
-  extend(Tod::Mongoization::ClassMethods)
-end
